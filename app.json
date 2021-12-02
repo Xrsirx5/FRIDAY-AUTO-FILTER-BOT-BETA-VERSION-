@@ -1,7 +1,7 @@
 {
     "name": "ANNA_BEN_BOT",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
-    "logo": "https://telegra.ph/file/87fd3f1437dbd06644b20.jpg",
+    "logo": "https://telegra.ph/file/34c61ef5ee93be89021d3.jpg",
     "keywords": [
       "telegram",
       "auto-filter",
@@ -67,6 +67,11 @@
         "USE_CAPTION_FILTER": {
             "description": "Whether bot should use captions to improve search results. (True False)",
             "value": "False",
+            "required": false
+        },
+        "SPELL_CHECK_REPLY": {
+            "description": "if enabled, bot will be suggesting related movies if keyword not found in database.",
+            "value": "",
             "required": false
         },
         "CUSTOM_FILE_CAPTION": {
